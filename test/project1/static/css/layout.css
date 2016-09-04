@@ -1,0 +1,55 @@
+/* 总体布局居中 */
+body {
+    margin: auto;
+    margin: 0 2rem 0 2rem;
+}
+
+/*tool class*/
+.clear {
+    clear: both;
+}
+
+/* 最上侧 包含Log In部分 */
+.topBar {
+    float: right;
+    margin: 0;
+}
+.topBar li {
+    float: left;
+    margin: 0  1rem 0 0;
+}
+
+/* logo + 主导航 */
+.logo {
+    float: left;
+}
+
+.mainNav {
+    text-align: center;
+}
+.mainNav li {
+    float: left;
+    margin: 1.5rem 1rem 0 0;
+}
+.mainNav .search {
+    position: absolute;
+    right: 2rem;
+}
+.search {
+    float: right;;
+}
+
+/* 中间container部分 */
+
+/* footer */
+.absolutly-bottom {
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+}
+.footerForm {
+
+}
+.footer {
+
+}
